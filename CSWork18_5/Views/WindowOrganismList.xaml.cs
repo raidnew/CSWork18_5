@@ -40,6 +40,11 @@ namespace CSWork18_5.Views
             BioType.Text = type.ToString();
         }
 
+        public void ShowName(string name)
+        {
+            BioName.Text = name;
+        }
+
         public void ShowObject(IOrganism obj)
         {
             Object.Text = obj.ToString();
